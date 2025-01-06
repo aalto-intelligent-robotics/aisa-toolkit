@@ -1,0 +1,74 @@
+<?xml version="1.0"?>
+<config>
+    <actors>
+        <actor name="ego" render="True" />
+    </actors>
+    <scenarios>
+        <scenario name="lanesdefault" town="Town05" npc_pedestrians="0" npc_vehicles="0" WeatherId="0" sensor_noise="0">
+            <waypoints>
+            </waypoints> 
+            
+            <object name="vehicle1" type="vehicle_4W" start_x="170.5" start_y="80" start_z="0.40" yaw="-90" end_x="144" end_y="59" end_z="0" model="vehicle.*" />
+            <object name="vehicle2" type="vehicle_4W" start_x="188" start_y="59" start_z="0.40" yaw="180" end_x="167" end_y="75.7" end_z="0.13" model="vehicle.*" />
+            <object name="pedestrian1" type="pedestrian" autopilot="True" start_x="158" start_y="75" start_z="0.40" yaw="0" end_x="185" end_y="71" end_z="0" />
+            <object name="bike1" type="vehicle_2W" autopilot="True" start_x="147.6" start_y="62.6" start_z="0.40" yaw="0" end_x="191.2" end_y="62.7" end_z="0" />
+        </scenario>
+
+        <scenario name="customvanishing" town="conflictmap" npc_pedestrians="0" npc_vehicles="0" WeatherId="1" sensor_noise="0">
+            <waypoints>
+            <waypoint name="start" pitch="0.0" roll="0.0" x="2793.00" y="1068.0" yaw="0.0" z="0.300000"/>
+            <waypoint name="dest" pitch="0.0" roll="0.0" x="1065.00" y="1068.0" yaw="0.0" z="0.300000"/>
+            </waypoints> 
+        </scenario>
+
+        <scenario name="customramp" town="conflictmap" npc_pedestrians="0" npc_vehicles="0" WeatherId="1" sensor_noise="0">
+            <waypoints>
+            <waypoint name="start" pitch="0.0" roll="0.0" x="1231.0" y="-237.0" yaw="0.0" z="0.300000"/>
+            <waypoint name="dest" pitch="0.0" roll="0.0" x="3154.0" y="-270.0" yaw="0.0" z="0.300000"/>
+            </waypoints> 
+        </scenario>
+
+        <scenario name="obstaclestatic" town="Town05" npc_pedestrians="0" npc_vehicles="0" WeatherId="1" sensor_noise="0">
+            <waypoints>
+            <waypoint name="start" pitch="0.0" roll="0.0" x="151.40000000" y="-91.496094" yaw="90.0" z="0.300000"/>
+            <waypoint name="dest" pitch="0.0" roll="0.0" x="151.40000000" y="-11.496094" yaw="90.0" z="0.300000"/>
+            </waypoints> 
+        </scenario>
+
+        <scenario name="obstacledynamic" town="Town05" npc_pedestrians="0" npc_vehicles="0" WeatherId="1" sensor_noise="0">
+            <waypoints>
+            <waypoint name="start" pitch="0.0" roll="0.0" x="151.40000000" y="-91.496094" yaw="90.0" z="0.300000"/>
+            <waypoint name="dest" pitch="0.0" roll="0.0" x="151.40000000" y="-11.496094" yaw="90.0" z="0.300000"/>
+            </waypoints> 
+        </scenario>
+
+        <scenario name="narrowingroad" town="Town05" npc_pedestrians="0" npc_vehicles="0" WeatherId="1" sensor_noise="0">
+            <waypoints>
+            <waypoint name="start" pitch="0.0" roll="0.0" x="151.40000000" y="-91.496094" yaw="90.0" z="0.300000"/>
+            <waypoint name="dest" pitch="0.0" roll="0.0" x="151.40000000" y="-11.496094" yaw="90.0" z="0.300000"/>
+            </waypoints>    
+        </scenario>
+
+        <scenario name="vanishinglanes_weather" town="Town04" npc_pedestrians="0" npc_vehicles="0" WeatherId="6" sensor_noise="0">
+            <waypoints>
+                <waypoint name="start" pitch="0.0" roll="0.0" x="-12.905157" y="-87.532539" yaw="89.775162" z="0.300000"/>
+                <waypoint name="dest" pitch="0.0" roll="0.0" x="6.135159" y="-146.159546" yaw="89.775162" z="0.300000"/>
+            </waypoints>
+        </scenario>
+
+        <scenario name="vanishinglanes_map" town="Town01" npc_pedestrians="0" npc_vehicles="0" WeatherId="1" sensor_noise="0">
+            <waypoints>
+                <waypoint name="start" pitch="0.0" roll="0.0" x="213.764709" y="330.850616" yaw="0.000061" z="0.300000"/>
+                <waypoint name="dest" pitch="0.0" roll="0.0" x="339.018738" y="116.545761" yaw="-89.999939" z="0.300000"/>
+            </waypoints> 
+        </scenario>
+
+        <scenario name="sensornoise" town="Town04" npc_pedestrians="0" npc_vehicles="0" WeatherId="1" sensor_noise="5">
+            <waypoints>
+                <waypoint name="start" pitch="0.0" roll="0.0" x="-12.905157" y="-87.532539" yaw="89.775162" z="0.300000"/>
+                <waypoint name="dest" pitch="0.0" roll="0.0" x="6.135159" y="-146.159546" yaw="89.775162" z="0.300000"/>
+            </waypoints> 
+        </scenario>
+
+    </scenarios>
+</config>
