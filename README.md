@@ -201,3 +201,21 @@ In the near future, we plan to keep using CARLA 0.9.15, and if use of a newer CA
 ### Unreal Engine
 We are following the migration from CARLA to Unreal Engine 5 (UE5). The associated CARLA version is still a dev branch, which is why we have implemented the project with version 0.9.15 in UE4. A completion of the UE5 version is targeted for 2025 and we will then upgrade the project as quickly as possible to avoid excessive divergences.
 
+
+## Citation
+
+If you find our work useful, please cite our [HRI'25 publication](https://dl.acm.org/doi/10.5555/3721488.3721620):
+
+```
+@inproceedings{mihaylova2025hri,
+  author = {Mihaylova, Tsvetomila and Reitmann, Stefan and Topp, Elin A. and Kyrki, Ville},
+  title = {Injecting Conflict Situations in Autonomous Driving Simulation using CARLA},
+  year = {2025},
+  publisher = {IEEE Press},
+  booktitle = {Proceedings of the 2025 ACM/IEEE International Conference on Human-Robot Interaction},
+  pages = {1052–1056},
+  numpages = {5},
+  location = {Melbourne, Australia},
+  series = {HRI '25}
+}
+```
